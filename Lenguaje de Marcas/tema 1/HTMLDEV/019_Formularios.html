@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Html</title>
+</head>
+<body>
+
+    <h1>Formulario en HTML: Alta de usuario</h1>
+
+    <form action="">
+
+        <p>USUARIO: <input type="text" name="usuario" id="usuario"></p> <!--input="text" Introducimos texto-->
+        
+        <p>PASSWORD: <input type="password" name="clave" id="clave"></p> <!--input="password" Introducimos contraseña/clave-->
+        
+        <p>REGISTRADO: <input type="checkbox" name="chk_registro" id="chk_registro"></p> <!--input="checkbox" Introducimos un recuadro que podremos marcar-->
+        
+        
+        <p>SEXO: <input type="radio" name="rad_sexo" id="rad_sexo" value="M">Masculino <!--input="radio" checkbox circular que podremos marcar-->
+            <input type="radio" name="rad_sexo" id="rad_sexo" value="f">Femenino
+        </p>
+        
+        <p>CAMPO PREFERIDO: 
+                <input type="radio" name="rad_campo_pref" id="rad_campo_pref" value="Inf">Infomática
+                <input type="radio" name="rad_campo_pref" id="rad_campo_pref" value="Mat">Matemáticas     <!--input="radio" checkbox circular que podremos marcar en las distintas opciones -->
+                <input type="radio" name="rad_campo_pref" id="rad_campo_pref" value="Fis">Física
+        </p>
+
+        <p>EDAD: <input type="number" name="num_edad" id="num_edad"></p> <!--input="number" Introducimos un numero-->
+        <p>SUBIR CV:
+            <input type="file" name="fichero" id="fichero" accept="application/x-zip-compressed" >
+            <!--accept="application/xzip-compressed" Permite añadir ficheros comprimidos-->
+            <!--input="file" Introduciremos un fichero pero este no será enviado a ningun sitio porque necesita lenguaje de servidor -->
+        </p>
+
+        <p>
+            ESTATURA: <input type="range" name="rg_estatura" id="tg_estatura" min="0" max="250"> <!--Barra movil en la que nos pondra un rango minimo y un máximo-->
+        </p>
+
+        <p>
+            FECHA DE REGISTRO: <input type="date" name="fecha_reg" id="fecha_reg">
+        </p>
+
+        <p>
+            PAIS: <select name="cbpais" id="cbpais">
+                        <option value="">Seleccione Pais</option> <!--Seleccionada de manera automatica-->
+                        <option value="DE">ALEMANIA</option> 
+                        <option value="ES">ESPAÑA</option>
+                        <option value="IT">ITALIA</option>
+                        <option value="FR">FRANCIA</option>
+                    </select>
+        </p>
+
+        <p>COMENTARIOS: <textarea name="Comentarios" id="Comentarios"></textarea></p>
+
+        <p>
+            <label for="">Esto es una etiqueta label...</label> <!--Aumenta la accesibilidad; en el for se pone el nombre de la etiqueta por ejemplo USUARIO-->
+            <!--Suele ser para diferenciar más las etiquetas o para que se vea mejor al usuario (por ejemplo un ciego))-->
+        </p>
+
+        <p><input type="submit" value="Enviar"><input type="reset" value="Limpiar"></p> <!--Botones para subir y limpiar el formulario-->
+        
+
+    </form>
+    
+    
+    
+    <!--Otro Formulario-->
+    <h1>Otro formulario Web</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Datos de cliente</legend>           
+            <p>
+                <label for="correo">Correo Electronico: </label>
+                <input type="email" name="correo" id="correo">
+            </p>
+            <p>
+                <label for="clave">Clave: </label>
+                <input type="password" name="clave" id="clave">
+            </p>
+            <p>
+                <label for="">(Longitud minima 6 caracteres)</label>
+            </p>
+
+            <p>
+                <input type="submit" value="enviar"> 
+                <input type="reset" value="limpiar">
+            </p>
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

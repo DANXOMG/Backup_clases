@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de tablas frame rules</title>
+</head>
+<body>
+    
+    <h1>Diseño de tablas con frame rules</h1>
+
+    <!--bordes exteriores de las filas visibles-->
+    <p>frame= border, rules=none</p>
+    <table frame="border" rules="none">
+        <tr>
+            <td style="text-align: center;">A</td>
+            <td style="text-align: center;">B</td>
+            <td style="text-align: center;">C</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">D</td>
+            <td style="text-align: center;">E</td>
+            <td style="text-align: center;">F</td> 
+        </tr>
+        </table>
+
+    <!--bordes exteriores parte superior e inferior entre filas-->
+    <p>frame= hsides, rules= none</p>
+    <table frame="hsides" rules="none">
+    <tr>
+        <td style="text-align: center;">A</td>
+        <td style="text-align: center;">B</td>
+        <td style="text-align: center;">C</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">D</td>
+        <td style="text-align: center;">E</td>
+        <td style="text-align: center;">F</td>
+    </tr>
+    </table>
+
+
+    <!--bordes entre columnas-->
+    <p>frame= void rules= cols</p>
+    <table frame="void" rules="cols">
+        <tr>
+            <td style="text-align: center;">A</td>
+            <td style="text-align: center;">B</td>
+            <td style="text-align: center;">C</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">D</td>
+            <td style="text-align: center;">E</td>
+            <td style="text-align: center;">F</td>
+        </tr>
+    </table>
+
+
+
+    <!--Barra central entre filas -->
+    <p>frame= void rules= rows</p>
+    <table frame="void" rules="rows">
+        <tr>
+            <td style="text-align: center;">A</td>
+            <td style="text-align: center;">B</td>
+            <td style="text-align: center;">C</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">D</td>
+            <td style="text-align: center;">E</td>
+            <td style="text-align: center;">F</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

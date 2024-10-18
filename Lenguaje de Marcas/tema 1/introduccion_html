@@ -1,0 +1,23 @@
+Introduccion HTML
+
+
+W3C --> saber lo que es
+
+Es el organismo mundial encargado de desarrollar las tecnologías y protocolos que han hecho posible la Web que hoy conocemos
+
+
+Etiquetas (p.ej: <!html>)
+Un inicio de etiqueta tiene que tener un fin de etiqueta (tiene que haber una apertura y un cierre) tiene que haber un anidamiento.
+
+<etiqueta> </etiqueta>
+inicio		fin
+
+Estas etiquetas pueden tener atributos (los atributos se escriben asi lang= "ESP")
+
+Ejemplos de atributos
+dir = direccion del texto
+lang = lenguaje
+
+<! -- comentario en html -->
+
+<base> -> para saber de donde proviene la raíz (/"https://www.adidas.com"/)
