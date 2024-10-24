@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorteo de entradas</title>
+    <style>
+        body{
+            background-image: url();
+        }
+    </style>
 </head>
 <body>
     
@@ -12,11 +17,11 @@
     <h2>Entra en  el sorteo de entradas  del circuito de Barcelona F1</h2>
 
     <form action="">
-        <fieldset>
+        <fieldset style="background-image: url(./imagenes/GPEspaña.png); background-repeat: no-repeat;">
             <legend>Datos de usuario</legend>
 
             <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Nombre"></p>
-            <p>Email: <input type="text" name="correo" id="correo" placeholder="Email"></p>
+            <p>Email: <input type="email" name="correo" id="correo" placeholder="prueba@gmail.com"></p>
             <p>Telefono de contacto: <input type="number" placeholder="Telefono"></p>
             <p>País de residencia: 
                 <select name="pais" id="pais">
@@ -31,6 +36,53 @@
             </p>
             <p>Fecha de Nacimiento <input type="date" name="fecha_nac" id="fecha_nac"></p>
 
+            <p>Adjunta aquí tu DNI <input type="file" name="dni" id="dni"></p>
+
+
+            <p>Escudería Preferida: </p>
+                <input type="radio" name="RedBull" id="Redbull">Red bull
+                <input type="radio" name="Mclaren" id="Mclaren">Mclaren
+                <input type="radio" name="Mercedes" id="Mercedes">Mercedes
+                <input type="radio" name="Ferrari" id="Ferrari">Ferrari
+                <input type="radio" name="Aston_Martin" id="Aston_Martin">Aston Martin
+                <input type="radio" name="Williams" id="Williams">Williams
+                <input type="radio" name="RB" id="RB">RB Visa
+                <input type="radio" name="Haas" id="Hass">Haas
+                <input type="radio" name="Alpine" id="Alpine">Alpine
+                <input type="radio" name="Stake Sauber">Stake Sauber
+
+            <p>Favorito para ganar el Mundial de pilotos
+                <select name="Mun_pilo" id="Mun_pilo">
+                    <option value="">Elige un piloto de la parrilla</option>
+                    <option value="Max" id="Max">Max Verstappen</option>
+                    <option value="Lando" id="Lando">Lando Norris</option>
+                    <option value="Leclerc">Charles Leclerc</option>
+                    <option value="Oscar" id="Oscar">Oscar Piastri</option>
+                    <option value="Carlos">Carlos Sainz</option>
+                    <option value="Lewis">Lewis Hamilton</option>
+                    <option value="George">George Russel</option>
+                    <option value="Checo">Checo Perez</option>
+                    <option value="Fernando">Fernando Alonso</option>
+                    <option value="Nico">Nico Hulkenberg</option>
+                    <option value="Lance">Lance Stroll</option>
+                    <option value="Yuki">Yuki Tsunoda</option>
+                    <option value="Daniel">Daniel Ricciardo</option>
+                    <option value="Albon">Alexander Albon</option>
+                    <option value="Kevin">Kevin Magnussen</option>
+                    <option value="Pierre">Pierre Gasly</option>
+                    <option value="Oliver">Oliver Bearman</option>
+                    <option value="Stevan">Stevan Ocon</option>
+                    <option value="Colapinto">Franco Colapinto</option>
+                    <option value="Liam">Liam Lawson</option>
+                    <option value="Bottas">Valtteri Bottas</option>
+                    <option value="Zhou">Guayu Zhou</option>
+                    
+                </select>
+            </p>
+            
+            <p><label><input type="checkbox" name="boletin"> Quiero suscribirme al boletín de noticias de F1.</label></p>
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpiar">
+                
         </fieldset>
     </form>
 
