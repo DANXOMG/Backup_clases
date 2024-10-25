@@ -6,22 +6,60 @@
     <title>Sorteo de entradas</title>
 
     
+<style>
+    .img{
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 70px;
+        background-repeat: no-repeat;
+        border-radius: 10px;
 
+    }
+    header{
+        width: 100%;
+        height: 20%;
+        background-color: black;
+    }
+    body{
+        background-image: url(./imagenes/fondoFormu.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    div{
+        width: 100%;
+        height: 20%;
+        color: white;
+        background-color: black;
+    }
+    h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        color: whitesmoke;
+    }
+</style>
 
 
 
 
 </head>
 <body>
-    
-    <h1>SORTEO DE ENTRADAS Gran Premio de España</h1>
+    <header>
+    <div>
+        <h1>SORTEO DE ENTRADAS Gran Premio de España</h1>
+    </div>
+    </header>
+
+    <img src="./imagenes/GPEspaña.png" alt="" class="img">
 
     <h2>Entra en  el sorteo de entradas  del circuito de Barcelona F1</h2>
 
     <form action="">
         <fieldset>
             <legend>Datos de usuario</legend>
-
             <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Nombre"></p>
             <p>Email: <input type="email" name="correo" id="correo" placeholder="prueba@gmail.com"></p>
             <p>Telefono de contacto: <input type="number" placeholder="Telefono"></p>
