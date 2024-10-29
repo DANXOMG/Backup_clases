@@ -1,0 +1,13 @@
+/*Todos los span con el atributo lang en negrita */
+
+span[lang="en-us"] {font-weight: bold;}
+
+span[lang="pt"] {color:green;}
+
+span[lang="zh-cn"] {color:red;}
+
+span[lang="zh-TW"] {color:orange;}
+
+span[href=".cn"] {background-color: olive;}
+
+span[href="https://example.cn"] {background-color: gray;}
