@@ -1,0 +1,27 @@
+p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    color: aliceblue;
+}
+
+.caja1{
+    border-style:  solid;
+    border-color: blueviolet;
+    border-radius: 5%;
+    background-color: rgba(25,25,25,0.15);
+
+}
+
+.colorazul{
+    color: rgba(0,0,255,0.1);
+}
+
+.caja2{
+    border-style: dashed;
+    border-color: plum;
+    border-radius: 5%;
+    background-image: url(/workspaces/Backup_clases/Lenguaje de Marcas/tema 2/UD_02_CSS/imagenes/);
+
+}
