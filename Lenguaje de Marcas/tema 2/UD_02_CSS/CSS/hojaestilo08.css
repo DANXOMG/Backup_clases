@@ -1,0 +1,24 @@
+*{
+    border: 2px solid;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+html{
+    border-end-end-radius: 4px solid;
+}
+
+body{
+    border: dotted;
+}
+
+h1,h2{
+    background-color: pink; border: 2px solid;
+}
+a.absoluto{
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

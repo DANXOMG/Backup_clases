@@ -4,6 +4,8 @@ p{
     font-weight: bold;
     font-style: normal;
     color: aliceblue;
+    padding: 25px;
+    padding-left: 25px;
 }
 
 .caja1{
@@ -11,7 +13,7 @@ p{
     border-color: blueviolet;
     border-radius: 5%;
     background-color: rgba(25,25,25,0.15);
-
+    margin-bottom: 25px;
 }
 
 .colorazul{
@@ -22,6 +24,10 @@ p{
     border-style: dashed;
     border-color: plum;
     border-radius: 5%;
-    background-image: url(/workspaces/Backup_clases/Lenguaje de Marcas/tema 2/UD_02_CSS/imagenes/);
+    background-image: url('../imagenes/');
+    background-position: center;
+    opacity: 0.2;
+    height: 600px;
+
 
 }
