@@ -115,7 +115,7 @@
 }
 .ancho_transmision{
     width: 50%;
-    height: 400px;
+    height: 500px;
 
 }
 
@@ -124,6 +124,19 @@
     height: 100%;
     border-radius: 5px;
 }
+
+.ancho_rendimiento{
+    width: 50%;
+    height: 550px;
+}
+
+
+#rendimiento{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
 
 
 
