@@ -1,5 +1,5 @@
 .caja_1{ /* Caja descripcion*/
-    background-color: rgba(0,0,0,0);
+    background-color: whitesmoke;
     width: 600px;
     height: 100px;
     padding: 20px;
@@ -10,7 +10,7 @@
 }
 
 .caja_2{ /* caja historia bmw */
-   
+    background-color: whitesmoke;
     width: 600px;
     height: 300px;
     padding: 20px;
@@ -22,14 +22,13 @@
 
 .caja_imagen{ /* caja imagen bmw rojo */
     position: absolute;
-    top: 0;
+    top: 110px;
     right: 0;
     width: 1000px;
     height: 650px;
     padding: 20px;
     margin: 80px;
     border: none;
-    background-color: rgba(0,0,0,0);
     font-family: Arial, Helvetica, sans-serif;
 }
 #imagen_bmw{ /* imagen bmw rojo inicio*/
