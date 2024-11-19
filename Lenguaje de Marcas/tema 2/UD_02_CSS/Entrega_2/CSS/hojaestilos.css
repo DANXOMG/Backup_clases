@@ -1,9 +1,8 @@
 body{
     background-image: url(../imagenes/motor2.jpg);
-    max-width: 100%;
-    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 

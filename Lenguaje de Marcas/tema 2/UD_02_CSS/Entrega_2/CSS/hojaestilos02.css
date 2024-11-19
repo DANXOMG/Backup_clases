@@ -1,6 +1,5 @@
 .caja{
-    width: 600px;
-    height: auto;
+    width: 500px;
     border: 2px solid black ;
     margin: 0;
     padding: 10px;
@@ -12,12 +11,23 @@ p{
 }
 
 .tabla_modelos{
-    width: 50%;
-    height: auto;
+    width: 100%;
     border: 2px solid black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.ancho_tabla{
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+
 
 #img_325i{
     width: 100%;
