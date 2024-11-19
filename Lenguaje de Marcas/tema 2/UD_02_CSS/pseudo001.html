@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo001</title>
+</head>
+
+<style>
+    a:hover{
+        color: red;
+    }
+    button:active{
+        background-color: green;
+    }
+    input:focus{
+        border: 4px solid blue;
+    }
+    a:visited{
+        color: orangered;
+    }
+    
+    
+    p:first-child{
+        color: black;
+    }
+    p:last-child{
+        color: olive;
+    }
+    p:nth-child(3){
+        color:blueviolet;
+    }
+    p:nth-child(2){
+        color: coral;
+    }
+</style>
+
+
+<body>
+    <h1>Pseudo Clases</h1>
+
+    <h2>:HOVER</h2>
+        <a href="#">Enlace con hover</a>
+
+    <h2>:ACTIVE </h2>
+    <button>Botón active</button>
+
+
+    <h2>:FOCUS</h2>
+    <form action="#">
+        <input type="text">
+        <input type="number">
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <h2>:VISITED</h2>
+    <a href="#">link visitado</a>
+
+    <h2>:CHILDS</h2>
+    <div>
+        <p>Primer parrafo</p>
+        <p>Segundo parrafo</p>
+        <p>Tercero parrafo</p>
+        <p>Cuarto parrafo</p>
+        
+    </div>
+
+
+</body>
+</html>

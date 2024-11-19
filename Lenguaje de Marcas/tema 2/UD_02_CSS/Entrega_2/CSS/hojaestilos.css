@@ -1,51 +1,32 @@
 body{
-    background-image: url(../imagenes/motor2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   margin: 50px 100px 50px 100px;
     
 }
 
-.inicio_sesion{
+
+
+.caja_sesion{
     width: 600px;
-    background-color: white;
-    border-radius: 10px;
     padding: 20px 20px;
-    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: auto;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    background-color: whitesmoke;
+
 }
 
-label {
-    display: flex;
-    margin-bottom: 5px;
-}
 
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+button{
+    background-color:rgb(24, 192, 74);
     border-radius: 4px;
-}
-
-button {
     width: 100%;
-    padding: 10px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    border-radius: 4px;
 }
-
-button:hover {
-    background-color: #4cae4c;
+button:hover{
+    background-color: rgb(3, 68, 23);
 }
-
-
-
-
-
-
-
 
 
 
@@ -88,6 +69,7 @@ a{
 }
 
 nav{
+    margin: 80px 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     display: flex;
@@ -118,11 +100,15 @@ nav{
     right: 220px;
 }
 
-h1{
+h1, h2{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 100px 50px 100px;
+    color: black;
 }
 
+
 .caja{
+    margin: 50px 100px 50px 100px;
     width: 600px;
     height: auto;
     border: 0;
@@ -143,13 +129,12 @@ h1{
 }
 
 .tabla_modelos{
+    margin: 50px 100px 50px 100px;
     width: 600px;
     height: auto;
     border: 0;
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
-    margin: 0;
     background-color: whitesmoke;
 }
 
