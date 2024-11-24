@@ -21,7 +21,7 @@ footer{
     bottom: 0;
     background-color: rgb(32, 99, 175);
     border-radius: 20px;
-    height: 220px;
+    height: 160px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -31,19 +31,20 @@ footer{
 
 .ancho_foot{
     background-color:black;
+    text-align: center;
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     height: 150px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px ;
+    padding: 0 auto ;
 }
 
 .ancho_footer{ /* ANCHO  BOTONES FOOTER */
-    margin: 20px 50px 10px 50px;
-    padding: 2px 2px 2px 2px;
-    width: 400px;
+    margin: 30px auto;
+    padding: 0;
+    width: 30%;
     height: 80px;
     display: flex;
     background-color: rgba(0,0,0,0);
@@ -71,12 +72,13 @@ footer{
 }
 
 
-#enlaces_foot{
+.enlaces_foot{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: flex;
 }
+
 
 
 
@@ -113,7 +115,7 @@ footer{
     border-radius: 10px;
     height: auto;
     position: absolute;
-    top: 350px;
+    top: 275px;
     right: 200px;
     background-color: whitesmoke;
 
@@ -126,7 +128,7 @@ footer{
     border-radius: 10px;
     height: auto;
     position: absolute;
-    top: 700px;
+    top: 600px;
     right: 200px;
     background-color: whitesmoke;
 }
@@ -181,8 +183,25 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: red;
+}
+
+.hover_sabermas{
+   color: black;
+   font-style: italic;
+   font-size: larger;
+}
+
+.hover_sabermas:hover{
+    color: red;
+}
+
+
+
+
 nav{
-    margin: 80px 80px;
+    margin: 50px 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     display: flex;
@@ -199,17 +218,20 @@ nav{
     display: flex;
     justify-content: space-between;
     border-radius: 300px;
-    padding: 10px;
-    
+    padding: 10px;  
 
 }
+
+
+
+
 
 #m_logo{
     position: absolute;
     width: 6%;
     border-radius: 10px;
     right: 180px;
-    top: 100px;
+    top: 75px;
 }
 
 h1, h2, h3{
@@ -296,7 +318,7 @@ h1, h2, h3{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
     border: none;
 }
