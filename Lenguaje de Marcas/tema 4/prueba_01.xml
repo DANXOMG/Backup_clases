@@ -1,0 +1,63 @@
+<ticket>
+    
+    <logo>SuperStart</logo>
+
+    <datos>
+
+        <datos_emisor>
+            <nombre>SuperStart S.A</nombre>
+            <direccion>Tienda Alcobendas 27 avenida Galapagar</direccion>       
+        </datos_emisor>
+        
+        <datos_receptor>Joselito Bernardo de Aquiles</datos_receptor>
+        <fecha>
+            <fecha_factura>
+                <dia>14</dia>
+                <mes>Febrero</mes>
+                <año>2024</año>
+            </fecha_factura>
+        </fecha>
+
+
+        <productos>
+            <producto>
+                <nombre>Chuleton Avulense</nombre> 
+                <precio>50$</precio>
+                <cantidad>1</cantidad>
+                <peso>1,2kg</peso>
+            </producto>
+
+            <producto>
+                <nombre>Secreto Ibérico</nombre>
+                <precio>20$</precio>
+                <cantidad>2</cantidad>
+                <peso>500g</peso>
+            </producto>
+
+             <producto>
+                <nombre>Pulpo a la Gallega</nombre>
+                <precio>35$</precio>
+                <cantidad>1</cantidad>
+                <peso>500g</peso>
+            </producto>
+
+             <producto>
+                <nombre>Tarta de queso</nombre>
+                <precio>6$</precio>
+                <cantidad>2</cantidad>
+                <peso>150g</peso>
+            </producto>
+        </productos>
+
+        <importe_total>
+            <base></base>
+            <iva></iva>
+            <total></total>
+        </importe_total>
+
+    </datos>
+
+    <codigo_barras></codigo_barras>
+
+
+</ticket>

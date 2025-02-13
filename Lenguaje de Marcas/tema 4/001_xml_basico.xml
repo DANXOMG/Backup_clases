@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Esto solo es un ejemplo basico-->
+
+<coches>
+    <coche>
+        <matricula>HZX-7635</matricula>
+        <marca>Fiat</marca>
+        <peso>800</peso>
+        <plazas>5</plazas>
+    </coche>
+    <coche>
+        <matricula>HZA-9173</matricula>
+        <marca>Mercedes</marca>
+        <peso>1200</peso>
+        <plazas>5</plazas>
+    </coche>
+
+</coches>
