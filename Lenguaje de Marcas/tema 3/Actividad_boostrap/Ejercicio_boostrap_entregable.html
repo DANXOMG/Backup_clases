@@ -12,58 +12,59 @@
     <div class="container">
 
         <!--Cabecera-->
-        <div class="row"> 
+        <div class="row border"> 
             <div class="col-12 bg-success">Cabecera</div>
         </div>
         
 
         <!--Fila Articulo 1 y Articulo 2-->
-        <div class="row">
-          <div class="col-6 bg-warning">Articulo 1</div>
-          <div class="col-6 bg-warning">Articulo 2</div>
+        <div class="row border">
+          <!--Articulo 1 ocupara 6 desde md a XL. Además ocupará 12 en SM. y por ultimo deberá ocultarse a partir de XM-->
+          <div class="col-md-6 col-sm-12 d-none d-sm-block bg-warning border">Articulo 1</div>
+          <div class="col-6 d-none d-md-block bg-warning border">Articulo 2</div>
         </div>
 
 
 
         <!--Fila E1, E2, E3, E4-->
-        <div class="row">
-          <div class="col-3 bg-primary">E1</div>
-          <div class="col-3 bg-primary">E2</div>
-          <div class="col-3 bg-primary">E3</div>
-          <div class="col-3 bg-primary">E4</div>
+        <div class="row border">
+          <div class="col-3 bg-primary border">E1</div>
+          <div class="col-3 bg-primary border">E2</div>
+          <div class="col-3 bg-primary border">E3</div>
+          <div class="col-3 bg-primary border">E4</div>
         </div>
         
 
 
         <!--Fila Articulo 3-->
-        <div class="row"> 
+        <div class="row border"> 
           
           <div class="col-6 bg-warning">Articulo 3</div> <!--Nos ocupa mitad de la fila (6 columnas) de ARTICULO 3-->
           
           <div class="col-6"> <!--Nos ocupa la otra mitad de la fila el resto de elementos E5, E6, E7, E8-->
 
             <!--Deberemos poner dos filas más con estos elementos-->
-              <div class="row">
-                <div class="col bg-primary">E5</div>
-                <div class="col bg-primary">E6</div>
+              <div class="row border">
+                <div class="col bg-primary border">E5</div>
+                <div class="col bg-primary border">E6</div>
               </div>
 
 
-              <div class="row">
-                <div class="col bg-primary">E7</div>
-                <div class="col bg-primary">E8</div>
+              <div class="row border">
+                <div class="col bg-primary border">E7</div>
+                <div class="col bg-primary border">E8</div>
               </div>
           </div>
         </div>
 
 
         <!--SUBCABECERA-->
-        <div class="row">
+        <div class="row border">
           <div class="col-12 bg-secondary">Subcabecera</div>
         </div>
 
         <!--Footer-->
-        <div class="row"> 
+        <div class="row border"> 
           <div class="col-12 bg-success">Footer</div>
       </div>
 
