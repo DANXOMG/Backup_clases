@@ -19,49 +19,60 @@
 
         <!--Fila Articulo 1 y Articulo 2-->
         <div class="row border">
-          <!--Articulo 1 ocupara 6 desde md a XL. Además ocupará 12 en SM. y por ultimo deberá ocultarse a partir de XM-->
+          <!--Articulo 1 ocupara 6 bloqies desde md a XL. Además ocupará 12 en SM. Bloquea desde sm y en escalas inferiores desaparece-->
           <div class="col-md-6 col-sm-12 d-none d-sm-block bg-warning border">Articulo 1</div>
+          
+          <!--Articulo 2 ocupara 6 bloques desde md a escalar superiores como lg, xl que lo bloquea-->
           <div class="col-6 d-none d-md-block bg-warning border">Articulo 2</div>
+        </div><!--Ocupa 3 bloques desde md a escalas superiores y lo bloquea desde md pero desaparece en otras excalas inferiores-->
+
+       
+
+        <!--Fila E1, E2, E3, E4-->
+        <div class="row border">
+          <!--Ocupa 6 bloques en sm y desde md a escalas superiores 3 bloques--><!--Ocupa 3 bloques desde md a escalas superiores y lo bloquea desde md pero desaparece en otras excalas inferiores-->
+          <div class="col-sm-6 col-md-3 bg-primary border">E1</div>
+          <!--Ocupa 6 bloques en sm y desde md a escalas superiores 3 bloques-->
+          <div class="col-sm-6 col-md-3 d-none d-sm-block bg-primary border">E2</div>
+        
+        
+            <!--Ocupa 3 bloques desde md a escalas superiores y lo bloquea desde md pero desaparece en otras excalas inferiores-->
+            <div class="col-md-3 d-none d-md-block bg-primary border">E3</div>
+            <!--Ocupa 3 bloques desde md a escalas superiores y lo bloquea desde md pero desaparece en otras excalas inferiores-->
+            <div class="col-md-3 d-none d-md-block bg-primary border">E4</div>
+          </div>
+        
+
+          <!--SUBCABECERA-->
+        <div class="row border">
+          <div class="col-12 d-none d-sm-block bg-secondary">Subcabecera</div>
         </div>
 
 
 
-        <!--Fila E1, E2, E3, E4-->
-        <div class="row border">
-          <div class="col-3 bg-primary border">E1</div>
-          <div class="col-3 bg-primary border">E2</div>
-          <div class="col-3 bg-primary border">E3</div>
-          <div class="col-3 bg-primary border">E4</div>
+         <!--Fila Articulo 3-->
+         <div class="row border"> 
+          
+          <div class="col-md-6 d-none d-md-block bg-warning">Articulo 3</div> <!--Nos ocupa mitad de la fila (6 bloques) de ARTICULO 3-->
+          
+          <div class="col-md-6"> <!--Nos ocupa la otra mitad de la fila el resto de elementos E5, E6, E7, E8-->
+
+            <!--Deberemos poner dos filas más con estos elementos-->
+              <div class="row border">
+                <div class="col-md-6 d-none d-md-block bg-primary border">E5</div>
+                <div class="col-sm-12 col-md-6 bg-primary border">E6</div>
+              </div>
+
+
+              <div class="row border">
+                <div class="col-md-6 d-none d-md-block bg-primary border ">E7</div>
+                <div class="col-xm-12 col-sm-12 col-md-6 bg-primary border">E8</div>
+              </div>
+          </div>
         </div>
         
 
 
-        <!--Fila Articulo 3-->
-        <div class="row border"> 
-          
-          <div class="col-6 bg-warning">Articulo 3</div> <!--Nos ocupa mitad de la fila (6 columnas) de ARTICULO 3-->
-          
-          <div class="col-6"> <!--Nos ocupa la otra mitad de la fila el resto de elementos E5, E6, E7, E8-->
-
-            <!--Deberemos poner dos filas más con estos elementos-->
-              <div class="row border">
-                <div class="col bg-primary border">E5</div>
-                <div class="col bg-primary border">E6</div>
-              </div>
-
-
-              <div class="row border">
-                <div class="col bg-primary border">E7</div>
-                <div class="col bg-primary border">E8</div>
-              </div>
-          </div>
-        </div>
-
-
-        <!--SUBCABECERA-->
-        <div class="row border">
-          <div class="col-12 bg-secondary">Subcabecera</div>
-        </div>
 
         <!--Footer-->
         <div class="row border"> 
@@ -69,8 +80,26 @@
       </div>
 
 
-
     </div>
+
+
+        
+
+
+        
+        
+
+
+       
+
+
+        
+
+        
+
+
+
+    
 
 
     
