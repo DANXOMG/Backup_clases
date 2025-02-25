@@ -1,0 +1,78 @@
+<criptomonedas>
+        <!--<criptomoneda>
+            <id>1</id>
+            <nombre>Bitcoin</nombre>
+            <simbolo>BTC</simbolo>
+            <valoractual>50000</valoractual>
+            <cantidad>2</cantidad>
+            <precio>100000</precio>
+            <exchange>Binance</exchange>
+            <blockchain>
+                <id>1</id>
+                <tipo>Bitcoin</tipo>
+                <moneda>Bitcoin</moneda>
+                <cantidad>2</cantidad>
+                <precio>15000</precio>
+                <fecha>2025-02-25</fecha>
+            </blockchain>
+        </criptomoneda>
+        
+        <criptomoneda>
+            <id>2</id>
+            <nombre>Ethereum</nombre>
+            <simbolo>ETH</simbolo>
+            <valoractual>3000</valoractual>
+            <cantidad>5</cantidad>
+            <precio>15000</precio>
+            <exchange>Coinbase</exchange>
+            <blockchain>
+                <id>2</id>
+                <tipo>Ethereum</tipo>
+                <moneda>Etherium</moneda>
+                <cantidad>5</cantidad>
+                <precio>18000</precio>
+                <fecha>2024-02-25</fecha>
+            </blockchain>
+        </criptomoneda>-->
+
+
+
+
+    <!--EXPLICACION ROMÁN-->
+    <criptomonedas>
+        <criptomoneda id="1">
+            <nombre>Bitcoin</nombre>
+            <simbolo>BTC</simbolo>
+            <cantidad>0.5</cantidad>
+            <precio actual="6000">7000</precio>
+            <exchange plataforma="Binance">Online</exchange>
+        </criptomoneda>
+
+        <criptomoneda id="2"> <!--Los id siempre van en atributo-->
+            <nombre></nombre>
+            <simbolo></simbolo>
+            <cantidad></cantidad>
+            <precio actual="2500">3500</precio>
+            <exchange plataforma="Coinbase">Online</exchange>
+
+        </criptomoneda>
+    </criptomonedas>
+
+    <transacciones>
+        <transaccion id="101">
+            <tipo>Compra</tipo>
+            <moneda simbolo="BTC">Bitcoin</moneda>
+            <cantidad>0.1</cantidad>
+            <precio>58000</precio>
+            <fecha>2024-03-21</fecha>
+        </transaccion>
+
+        <transaccion id="102">
+            <tipo>Venta</tipo>
+            <moneda simbolo="ETH">Ethereum</moneda>
+            <cantidad>0.4</cantidad>
+            <precio>2800</precio>
+            <fecha>2023-06-23</fecha>
+        </transaccion>
+    </transacciones>
+</criptomonedas>
