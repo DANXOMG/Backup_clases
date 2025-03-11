@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta_cocina [
+    <!ELEMENT  receta_cocina (nombre, ingrediente)>
+    <!ELEMENT  nombre (#PCDATA)>
+    <!ELEMENT  ingrediente (#PCDATA)>
+]>
+
+
+
+<receta_cocina>
+    <nombre>Tortilla de patata</nombre>
+    <ingrediente>Huevo</ingrediente>
+    <ingrediente>Cebolla</ingrediente>
+    <ingrediente>Patata</ingrediente>
+</receta_cocina>

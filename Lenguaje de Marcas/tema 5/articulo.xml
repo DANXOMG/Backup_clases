@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE articulo [
+    <!ELEMENT articulo (codigo | id)> <!--puede ser codigo O id (con la barra " | ")-->
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+
+]>

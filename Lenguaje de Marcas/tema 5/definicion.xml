@@ -5,14 +5,15 @@ el orden y el número de veces que pueden aparecer, cuáles pueden ser hijos de 
 
 <!--Ejemplo dtd-->
 
-<!DOCTYPE alumnos [
-    <!ELEMENT alumnos(alumno)>
-    <!ELEMENT alumno(nombre, apellido, edad, fechaNacimiento)>
+
+
+<!DOCTYPE alumnos[
+
+    <!ELEMENT alumnos (alumno)>
+    <!ELEMENT alumno (nombre, apellido, edad, fechaNacimiento)>
     <!ELEMENT fechaNAcimiento (dia, mes, año)>
 
 ]>
-
-
 
 <!--Ejemplo Román-->
 <alumnos>
@@ -27,3 +28,10 @@ el orden y el número de veces que pueden aparecer, cuáles pueden ser hijos de 
         </fechaNacimiento>
     </alumno>
 </alumnos>
+
+<!DOCTYPE fabricantes [
+    <!ELEMENT fabricantes (fabricante)>
+    <!ELEMENT fabricante (nombre, pais)>
+    <!ATTLIST fabricante id (#PCDATA)> <!--para atributos-->
+    <!ELEMNT pais (#PCDATA)>
+]>
