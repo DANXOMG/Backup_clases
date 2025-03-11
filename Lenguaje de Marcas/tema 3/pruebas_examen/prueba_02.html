@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Aquí linkeamos las librerias de css-->
+</head>
+  <body>
+    
+    <div class="container border"> <!--Contenedor de todos los row-->
+        
+        <div class="row"> <!--Cabecera-->
+            <div class="col-12 bg-success">Cabecera</div>
+        </div>
+
+        <div class="row border"> <!--Articulo 1 y 2-->
+            <div class="col-sm-12 col-md-6 d-sm-block d-none bg-warning">Articulo 1</div>
+            <div class="col-md-6 d-md-block d-none bg-warning">Articulo 2</div>
+        </div>
+
+        <div class="row border"> <!--E1, E2, E3, E4-->
+            <div class="col-md-3 col-sm-6 bg-primary">E1</div>
+            <div class="col-md-3 col-sm-6 d-sm-block d-none bg-primary">E2</div>
+            <div class="col-md-3 d-md-block d-none bg-primary">E3</div>
+            <div class="col-md-3 d-md-block d-none bg-primary">E4</div>
+        </div>
+
+        <div class="row border"> <!--Subcabecera-->
+            <div class="col-sm-12 d-sm-block d-none bg-secondary">Subcabecera</div>
+        </div>
+
+        <div class="row border">
+            <div class="col-md-6 d-md-block d-none bg-warning">Articulo 3</div> <!--Ocupa la mitad de la fila Articulo 3-->
+            <div class="col-md-6"> <!--Ocupa la otra mitad de la fila donde meteremos E5, E6, E7, E8-->
+                <div class="row border"> <!-- Dentro de esta fila que nos ocupa la mitad deberemos meter 2 filas que ocupen la mitad del espacio -->
+                    <div class="col-md-6 d-md-block d-none bg-primary border">E5</div>
+                    <div class="col-md-6 col-sm-12 col-xm-12 bg-primary border">E6</div>
+                </div>
+                <div class="row border">
+                    <div class="col-md-6 d-md-block d-none bg-primary border">E7</div>
+                    <div class="col-md-6 col-sm-12 col-xm-12 bg-primary border">E8</div>
+                </div>
+                    
+                    
+            </div>
+        </div>
+
+        <div class="row border">
+            <div class="col-12 bg-success">Footer</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+   
+    
+    <!--los scripts son para javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

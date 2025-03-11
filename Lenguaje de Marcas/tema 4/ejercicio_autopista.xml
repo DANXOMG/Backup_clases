@@ -1,0 +1,30 @@
+<!-- 
+evento 1
+
+señal de accidente
+punto kilometrico 42,200
+nombre de la via A-49
+
+sentido: huelva
+corte de la via: carril
+fecha y hora del evento
+Retencion: si
+kilometros de retencion: 8-->
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<paneles>
+    <evento tipo="Rentencion" fecha="True, 08/07/2024" >
+        <via>
+            <nombre>Autopista del V Centenario</nombre>
+            <ref>A-49</ref>
+            <origen>Sevilla</origen>
+            <destino>Huelva</destino>
+            <carriles>4</carriles>
+        </via>
+        <punto_km>42200</punto_km>
+        <retencion long="8.000" />
+        <sentido>1</sentido>
+        <carrilescortados valor="1" />
+    </evento>
+</paneles>

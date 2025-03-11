@@ -69,7 +69,7 @@
 
         <transaccion id="102">
             <tipo>Venta</tipo>
-            <moneda simbolo="ETH">Ethereum</moneda>
+            <moneda simbolo="ETH">Ethereum</moneda> <!--Simbolo o tipo moneda = "$" debe de ser siempre atributo-->
             <cantidad>0.4</cantidad>
             <precio>2800</precio>
             <fecha>2023-06-23</fecha>

@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--Una DTD es un documento que define la estructura de un documento XML: los elementos, atributos, entidades, notaciones, etc, que pueden aparecer,
+el orden y el número de veces que pueden aparecer, cuáles pueden ser hijos de cuáles, etc. -->
+
+<!--Ejemplo dtd-->
+
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos(alumno)>
+    <!ELEMENT alumno(nombre, apellido, edad, fechaNacimiento)>
+    <!ELEMENT fechaNAcimiento (dia, mes, año)>
+
+]>
+
+
+
+<!--Ejemplo Román-->
+<alumnos>
+    <alumno>
+        <nombre>Felipe</nombre>
+        <pellido>Gonzalez</pellido>
+        <edad>60</edad>
+        <fechaNacimiento>
+            <dia>3</dia>
+            <mes>12</mes>
+            <año>1960</año>
+        </fechaNacimiento>
+    </alumno>
+</alumnos>

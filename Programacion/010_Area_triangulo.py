@@ -7,7 +7,7 @@ def calcular_area_triangulo(base, altura):
     Calcula el área de un triangulo dados su base y altura
     Parámetros:
     base(float): la base de triángulo
-    altura(floadt): la altura del triángulo
+    altura(float): la altura del triángulo
     Retorna:
     float: El área del Triángulo
     """
@@ -20,9 +20,9 @@ def calcular_area_triangulo(base, altura):
 
 
 #Ejemplo de uso de la funcion
-b = float(input("Introduce la base: "))
-a = float(input("Introduce la altura: "))
-resultado = calcular_area_triangulo(b,a)
+base = float(input("Introduce la base: "))
+altura = float(input("Introduce la altura: "))
+resultado = calcular_area_triangulo(base,altura)
 #b = base  a = altura
 
 
