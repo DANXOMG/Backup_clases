@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+<biblioteca xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="biblioteca.xsd">
     <libro cod="01">
         <titulo>La colmena</titulo>
         <autor>Camilo Jose Cela</autor>
