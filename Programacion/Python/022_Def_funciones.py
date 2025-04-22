@@ -1,0 +1,10 @@
+print("Introduce un valor: ")
+a=int(input())
+print("Introduce otro valor: ")
+b=int(input())
+print("Introduce otro valor: ")
+c=int(input())
+print("Introduce otro valor: ")
+d=int(input())
+
+print("Valores introducidos: " ,a,b,c,d)

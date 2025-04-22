@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<peliculas>
+    <pelicula id="1">
+        <titulo>Inception</titulo>
+        <director>Christopher Nolan</director>
+        <año>2010</año>
+        <genero>Ciencia Ficcion</genero>
+        <duracion minutos="148"/>
+        <calificacion tipo="IMDb">8.8</calificacion>
+    </pelicula>
+    
+    <pelicula id="2">
+        <titulo>The Matrix</titulo>
+        <director>Lana Wachowski</director>
+        <año>1999</año>
+        <genero>Accion</genero>
+        <duracion minutos="136"/>
+        <calificacion tipo="IMVDb">8.7</calificacion>
+    </pelicula>
+    <pelicula id="3">
+        <titulo>Parasite</titulo>
+        <director>Bong Joon-ho</director>
+        <año>2008</año>
+        <genero>Accion</genero>
+        <duracion minutos="152"/>
+        <calificacion tipo="IMDb">9.0</calificacion>
+    </pelicula>
+    <pelicula id="4">
+        <titulo>Interstellar</titulo>
+        <director>Christopher Nolan</director>
+        <año>2014</año>
+        <genero>Ciencia Ficcion</genero>
+        <duracion minutos="169"/>
+        <calificacion tipo="IMDb">8.7</calificacion>    
+    </pelicula>
+    <pelicula id="5">
+        <titulo>The Godfather</titulo>
+        <director>Francis Ford Copola</director>
+        <año>1972</año>
+        <genero>Crimen</genero>
+        <duracion minutos="175"/>
+        <calificacion tipo="IMDb">9.2</calificacion>
+    </pelicula>
+    
+    
+</peliculas>
