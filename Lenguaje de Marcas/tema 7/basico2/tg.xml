@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tg.xsl" type="text/xsl"?>
+<tiendaGaming nombre="GamingZone" pais="España">
+  <categoria tipo="videojuegos">
+
+    <articulo id="VG001" stock="disponible">
+      <nombre>God of War: Ragnarok</nombre>
+      <plataforma>PlayStation 5</plataforma>
+      <genero principal="Acción" secundario="Aventura"/>
+      <precio moneda="EUR">69.99</precio>
+      <clasificacion edad="18+">PEGI 18</clasificacion>
+      <fechaLanzamiento>2022-11-09</fechaLanzamiento>
+      <desarrollador pais="EEUU">Santa Monica Studio</desarrollador>
+      <idioma subtitulos="sí" voces="sí">Español</idioma>
+      <multijugador online="no"/>
+      <descripcion>Secuela épica con mecánicas renovadas y gráficos mejorados.</descripcion>
+    </articulo>
+
+    <articulo id="VG002" stock="disponible">
+      <nombre>GTA 6</nombre>
+      <plataforma>PlayStation 5</plataforma>
+      <genero principal="Acción" secundario="Mundo Abierto"/>
+      <precio moneda="EUR">99.99</precio>
+      <clasificacion edad="18+">PEGI 18</clasificacion>
+      <fechaLanzamiento>2025-05-09</fechaLanzamiento>
+      <desarrollador pais="EEUU">Rockstar North</desarrollador>
+      <idioma subtitulos="sí" voces="sí">Español</idioma>
+      <multijugador online="si"/>
+      <descripcion>Video aventura real de mundo abierto</descripcion>
+    </articulo>
+
+  </categoria>
+
+  <categoria tipo="accesorios">
+
+    <articulo id="AC103" stock="agotado">
+      <nombre>Teclado Mecánico HyperX Alloy</nombre>
+      <tipo mecánico="sí">Gaming</tipo>
+      <precio moneda="EUR">109.95</precio>
+      <marca origen="USA">HyperX</marca>
+      <conexion inalambrico="no" usb="sí"/>
+      <retroiluminacion color="RGB">Sí</retroiluminacion>
+      <layout idioma="ES">QWERTY</layout>
+      <peso unidad="gramos">1050</peso>
+      <garantia duracion="2 años"/>
+      <descripcion>Teclado con switches mecánicos para máximo rendimiento gaming.</descripcion>
+    </articulo>
+
+    <articulo id="AC105" stock="disponible">
+      <nombre>Ratón Mecánico MouseX</nombre>
+      <tipo mecánico="sí">Gaming</tipo>
+      <precio moneda="EUR">129.95</precio>
+      <marca origen="USA">HyperR</marca>
+      <conexion inalambrico="si" usb="sí"/>
+      <retroiluminacion color="RGB">Sí</retroiluminacion>
+      <layout idioma="ES">QWERTY</layout>
+      <peso unidad="gramos">150</peso>
+      <garantia duracion="2 años"/>
+      <descripcion>Ratón gaming especial para juego GTA.</descripcion>
+    </articulo>
+  </categoria>
+</tiendaGaming>

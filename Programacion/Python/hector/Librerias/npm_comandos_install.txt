@@ -1,0 +1,6 @@
+python -m venv tutorial // Crear entorno de trabajo
+npm install pip // instalar paquetes de python, puede ser necesario json
+npm install -g npm@11.3.0 // actualizar en github
+pip install numpy // instalar numpy
+python3 -m pip install --upgrade pip //actualizar en github
+pip install panda
