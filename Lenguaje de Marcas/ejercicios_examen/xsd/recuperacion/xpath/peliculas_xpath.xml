@@ -1,0 +1,86 @@
+1.- Acceder a todos los títulos de las películas
+
+//titulo
+
+2.- Obtener el director de la película con id="3"
+
+//pelicula[@id="3"]/director
+
+3.- Obtener la duración en minutos de "The Matrix"
+
+//pelicula[titulo="The Matrix"]/duracion/@minutos
+
+4.- Listar todas las películas dirigidas por Christopher Nolan
+
+//pelicula[director='Christopher Nolan']/titulo
+
+5.- Obtener los años de todas las películas
+
+//año
+//pelicula/año
+
+6.- Seleccionar los títulos de las películas con género "Ciencia Ficcion"
+
+//pelicula[genero='Ciencia Ficcion']/titulo
+
+7.- Contar cuántas películas hay en el XML
+
+count(//pelicula)
+
+8.- Obtener la calificación IMDb de "Interstellar"
+
+//pelicula[titulo='Interstellar']/calificacion[@tipo='IMDb']
+
+9.- Obtener todas las películas con duración mayor a 150 minutos
+
+//pelicula[duracion/@minutos > 150]/titulo
+
+10.- Obtener la película con la calificación IMDb más alta
+
+//pelicula[max(calificacion[@tipo='IMDb'])]
+
+max(//pelicula/calificacion[@tipo='IMDb'])
+
+11.- Obtener el promedio de duración de todas las películas
+
+avg(//pelicula/duracion/@minutos)
+
+12.- Obtener la película más antigua
+
+min(//pelicula/año)/titulo
+
+13.- Obtener las películas estrenadas después del año 2000
+
+//pelicula[año < 2000]/titulo
+
+14.- Contar cuántas películas tienen una calificación mayor a 8.5
+
+count(//pelicula[calificacion > 8.5])
+
+15.- Seleccionar todas las películas y mostrar título y año de estreno
+
+//pelicula/titulo | //pelicula/año
+
+//pelicula/concat(titulo, ' (', año, ')')
+
+16.- Seleccionar los títulos de las películas con directores que tengan más de un nombre
+
+//pelicula[contains(director, ' ')]/titulo
+
+17.- Obtener todas las películas excepto las de género "Ciencia Ficcion"
+
+//pelicula[genero != 'Ciencia Ficcion']/titulo
+
+18.- Obtener la película con el título más largo
+
+//pelicula[string-length(titulo)]
+max(//pelicula[string-length(titulo)])/titulo
+
+19.- Obtener los títulos en mayúsculas
+
+upper(//pelicula/titulo)
+upper-case(//pelicula/titulo)
+
+20.- Obtener el nombre del director cuya película tenga la menor duración
+
+min(//pelicula[duracion/@minutos])/director

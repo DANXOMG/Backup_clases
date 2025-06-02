@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="prueba2.xsd">
+    <producto cod="01">
+        <nombre>Telefono movil</nombre>
+        <precio>299.99</precio>
+        <categoria>Electronica</categoria>
+    </producto>
+    <producto cod="02">
+        <nombre>Impresora 3D</nombre>
+        <precio>1499.99</precio>
+        <categoria>Impresion</categoria>
+    </producto>
+</catalogo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!--Cometario-->
+<xs:annotation>
+    <xs:documentation>
+        Esto es una biblioteca
+    </xs:documentation>
+</xs:annotation>
+
+<xs:element name="biblioteca">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="libro">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo"/>
+                        <xs:element name="autor"/>
+                        <xs:element name="año"/>
+                        <xs:element name="editorial"/>
+                    </xs:sequence>
+                </xs:complexType>
+
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="cod" type="xs:string"/>
+    </xs:complexType>
+</xs:element>
+
+
+
+</xs:schema>

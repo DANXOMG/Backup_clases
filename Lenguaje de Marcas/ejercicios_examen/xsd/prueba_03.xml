@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="prueba_03_2.xsd">
+    <coche tipo="deportivo" cod="C001">
+        <modelo>Ferrari f8</modelo>
+        <velocidad>340</velocidad>
+        <puertas>2</puertas>
+        <color metalizado="si">Rojo</color>
+        <precio>250000</precio>
+        <fecha_lanzamiento>2020-03-05</fecha_lanzamiento>
+    </coche>
+
+    <coche tipo="suv" cod="C002">
+        <modelo>Range Rover</modelo>
+        <velocidad>220</velocidad>
+        <puertas>5</puertas>
+        <color metalizado="no">Negro</color>
+        <precio>12000</precio>
+        <fecha_lanzamiento>2019-01-15</fecha_lanzamiento>
+    </coche>
+</coches>

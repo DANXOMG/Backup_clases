@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-
-
 
     <xs:element name="catalogo">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="producto" maxOccurs="unbounded">
+                <xs:element name="producto" maxOccurs="unbounded"> <!--Aqui indicamos que el producto puede aparecer el maximo de veces: ilimitadas veces-->
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="categoria" type="xs:string"></xs:element>
                             <xs:element name="nombre" type="xs:string"></xs:element>
                             <xs:element name="precio" type="xs:decimal"></xs:element>
-                            <xs:element name="categoria" type="xs:string"></xs:element>
+                            
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
-
-
-
-
-
     </xs:element>
+
+
+
 
 
 </xs:schema>

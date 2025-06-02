@@ -1,0 +1,57 @@
+1. Acceder a todos los títulos de las películas
+
+//titulo
+
+2. Obtener el director de la película con id="3"
+
+//pelicula[@id="3"]/director
+
+3. Obtener la duración en minutos de "The Matrix"
+
+//pelicula[titulo="The Matrix"]/duración/@minutos
+
+4. Listar todas las películas dirigidas por Christopher Nolan
+
+//pelicula[director="Christopher Nolan"]
+
+5. Obtener los años de todas las películas
+
+//año
+//pelicula/año
+
+6. Seleccionar los títulos de las películas con género "Ciencia Ficción"
+
+//pelicula[genero="Ciencia Ficción"]/titulo
+
+7. Contar cuántas películas hay en el XML
+
+count(//pelicula)
+
+8. Obtener la calificación IMDb de "Interstellar"
+
+//pelicula[titulo="Interstellar"]/calificación[@tipo="IMDb"]
+
+9. Obtener todas las películas con duración mayor a 150 minutos
+
+//pelicula[duración/@minutos > 150]/titulo
+
+10. Obtener la película con la calificación IMDb más alta
+
+//pelicula[max(//calificación/@tipo="IMDb")]/titu
+max(//calificación[@tipo="IMDb"])
+
+11. Obtener el promedio de duración de todas las películas
+
+avg(//pelicula/duración/@minutos)
+
+12. Obtener la película más antigua
+
+//pelicula[año = min(//año)]/titulo
+
+13. Obtener las películas estrenadas después del año 2000
+
+//pelicula[año >= 2000]/titulo
+
+14. Contar cuántas películas tienen una calificación mayor a 8.5
+
+count(//pelicula[calificacion > 8.5])

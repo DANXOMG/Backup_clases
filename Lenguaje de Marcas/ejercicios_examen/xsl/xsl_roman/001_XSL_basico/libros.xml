@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="libros.xsl" type="text/xsl"?>
+<libros>
+    <libro>
+        <titulo>1984</titulo>
+        <autor fecha_nacimiento="1903-06-25">George Orwell</autor>
+        <fecha_publicacion año="1949"/>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor fecha_nacimiento="1927-03-06">Gabriel García Márquez</autor>
+        <fecha_publicacion año="1967"/>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor fecha_nacimiento="1547-09-29">Miguel de Cervantes</autor>
+        <fecha_publicacion año="1605"/>
+    </libro>
+    <libro>
+        <titulo>Orgullo y prejuicio</titulo>
+        <autor fecha_nacimiento="1775-12-16">Jane Austen</autor>
+        <fecha_publicacion año="1813"/>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor fecha_nacimiento="1927-03-06">Gabriel García Márquez</autor>
+        <fecha_publicacion año="1981"/>
+    </libro>
+    <libro>
+        <titulo>El principito</titulo>
+        <autor fecha_nacimiento="1900-06-29">Antoine de Saint-Exupéry</autor>
+        <fecha_publicacion año="1943"/>
+    </libro>
+    <libro>
+        <titulo>Rayuela</titulo>
+        <autor fecha_nacimiento="1914-08-26">Julio Cortázar</autor>
+        <fecha_publicacion año="1963"/>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor fecha_nacimiento="1964-09-25">Carlos Ruiz Zafón</autor>
+        <fecha_publicacion año="2001"/>
+    </libro>
+    <libro>
+        <titulo>Fahrenheit 451</titulo>
+        <autor fecha_nacimiento="1920-08-22">Ray Bradbury</autor>
+        <fecha_publicacion año="1953"/>
+    </libro>
+    <libro>
+        <titulo>El nombre de la rosa</titulo>
+        <autor>Umberto Eco</autor> <!-- Este no tiene el atributo, como ejemplo -->
+        <fecha_publicacion año="1980"/>
+    </libro>
+    
+        <libro>
+        <titulo>1984</titulo>
+        <autor fecha_nacimiento="1903-06-25">George Orwell</autor>
+        <fecha_publicacion año="1949"/>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor fecha_nacimiento="1927-03-06">Gabriel García Márquez</autor>
+        <fecha_publicacion año="1967"/>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor fecha_nacimiento="1547-09-29">Miguel de Cervantes</autor>
+        <fecha_publicacion año="1605"/>
+    </libro>
+    <libro>
+        <titulo>Orgullo y prejuicio</titulo>
+        <autor fecha_nacimiento="1775-12-16">Jane Austen</autor>
+        <fecha_publicacion año="1813"/>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor fecha_nacimiento="1927-03-06">Gabriel García Márquez</autor>
+        <fecha_publicacion año="1981"/>
+    </libro>
+    <libro>
+        <titulo>El principito</titulo>
+        <autor fecha_nacimiento="1900-06-29">Antoine de Saint-Exupéry</autor>
+        <fecha_publicacion año="1943"/>
+    </libro>
+    <libro>
+        <titulo>Rayuela</titulo>
+        <autor fecha_nacimiento="1914-08-26">Julio Cortázar</autor>
+        <fecha_publicacion año="1963"/>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor fecha_nacimiento="1964-09-25">Carlos Ruiz Zafón</autor>
+        <fecha_publicacion año="2001"/>
+    </libro>
+    <libro>
+        <titulo>Fahrenheit 451</titulo>
+        <autor fecha_nacimiento="1920-08-22">Ray Bradbury</autor>
+        <fecha_publicacion año="1953"/>
+    </libro>
+    <libro>
+        <titulo>El nombre de la rosa</titulo>
+        <autor>Umberto Eco</autor> <!-- Este no tiene el atributo, como ejemplo -->
+        <fecha_publicacion año="1980"/>
+    </libro>
+</libros>

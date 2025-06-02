@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:annotation>
+    <xs:documentation>
+        Esto es un catalogo de coches
+    </xs:documentation>
+</xs:annotation>
+
+<xs:element name="coches">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="coche" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="modelo"/>
+                        <xs:element name="velocidad"/>
+                        <xs:element name="puertas"/>
+                        <xs:element name="color">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="metalizado" type="xs:string"/>
+                            </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                        </xs:element>
+                        <xs:element name="precio" type="xs:decimal"/>
+                        <xs:element name="fecha_lanzamiento" type="xs:date"/>
+                        
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="tipo" type="xs:string"/>
+        <xs:attribute name="cod" type="xs:string"/>
+    </xs:complexType>
+
+</xs:element>
+
+
+
+</xs:schema>
