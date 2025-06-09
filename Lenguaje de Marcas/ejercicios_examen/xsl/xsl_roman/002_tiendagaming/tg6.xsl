@@ -63,14 +63,17 @@
       </body>
     </html>
   </xsl:template>
-
-  <xsl:template match="producto">
+  <xsl:template match="/producto">
     <tr>
       <td><xsl:value-of select="nombre"/></td>
       <td><xsl:value-of select="marca"/></td>
       <td><xsl:value-of select="precio"/></td>
       <td><xsl:value-of select="@categoria"/></td>
+      
     </tr>
+      
   </xsl:template>
+
+  
 
 </xsl:stylesheet>
